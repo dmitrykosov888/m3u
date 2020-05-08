@@ -1,0 +1,76 @@
+#EXTM3U deinterlace=1 m3uautoload=1 url-tvg="http://www.teleguide.info/download/new3/jtv.zip" cache=5000 aspect-ratio=16:9
+#EXTINF:-1 tvg-shift=-1 tvg-logo="Первый_HD" tvg-name="Первый_HD" crop=688x556+16+8 ,Первый Канал HD
+udp://@239.54.5.61:1224
+#EXTINF:-1 tvg-shift=3 tvg-logo="Россия_HD" tvg-name="Россия_HD" crop=688x556+16+8 ,Россия HD
+udp://@239.54.7.119:1224
+#EXTINF:-1 aspect-ratio=16:9 tvg-name="Россия_24" tvg-shift=0 group-title="Эфирные каналы",Россия 24
+http://109.171.45.81:81/udp/239.54.5.12:1224?denms.ru
+#EXTINF:-1 tvg-shift=-1 tvg-logo="Пятый" tvg-name="Пятый_Канал" crop=688x556+16+8 ,Пятый
+udp://@239.0.23.3:1224
+#EXTINF:-1 tvg-shift=-1 tvg-logo="РЕН-ТВ" tvg-name="РЕН_ТВ" crop=688x556+16+8 ,РЕН-ТВ
+udp://@239.0.23.11:1224
+#EXTINF:-1 tvg-shift=-1 tvg-logo="СТС" tvg-name="СТС" crop=688x556+16+8 ,СТС
+udp://@239.0.23.16:1224
+#EXTINF:-1 tvg-shift=1 tvg-logo="ТВ3" tvg-name="ТВ-3" crop=688x556+16+8 ,ТВ3
+udp://@239.0.23.5:1224
+#EXTINF:-1 tvg-shift=-1 tvg-logo="ТНТ" tvg-name="ТНТ" crop=688x556+16+8 ,ТНТ
+udp://@239.0.23.13:1224
+#EXTINF:-1 tvg-name="ТНТ4" tvg-logo="ТНТ4" group-title="Эфирные каналы",ТНТ4
+http://109.171.45.81:81/udp/239.54.5.36:1234?denms.ru
+#EXTINF:-1 tvg-shift=-1 tvg-logo="НТВ" tvg-name="НТВ" crop=688x556+16+8 ,НТВ
+udp://@239.0.23.10:1224
+#EXTINF:-1 tvg-shift=-1 tvg-logo="Пятница" tvg-name="Пятница" crop=688x556+16+8 ,Пятница
+udp://@239.54.5.65:1224
+#EXTINF:-1 tvg-shift=6 tvg-logo="Звезда" tvg-name="Звезда" crop=688x556+16+8 ,Звезда
+udp://@239.0.23.24:1224
+#EXTINF:-1 tvg-shift=3 tvg-logo="TV1000" tvg-name="TV1000" crop=688x556+16+8 ,TV 1000
+udp://@239.54.5.91:1234
+#EXTINF:-1 tvg-shift=3 tvg-logo="TV1000_Action" tvg-name="TV1000_Action" crop=688x556+16+8 ,TV 1000 Action
+udp://@239.54.5.111:1234
+#EXTINF:-1 tvg-name="TV1000_Русское_кино" tvg-shift=4 group-title="Кино и сериалы",TV1000 Русское Кино
+http://109.171.45.81:81/udp/239.54.5.112:1234?denms.ru
+#EXTINF:-1 audio-track="ru" tvg-shift=3 tvg-name="Дом_кино" group-title="Кино и сериалы",Дом Кино
+http://109.171.45.81:81/udp/239.54.6.223:1234?denms.ru
+#EXTINF:-1 tvg-shift=4 tvg-name="Иллюзион__" tvg-logo="Иллюзион+" group-title="Кино и сериалы",Иллюзион+
+http://109.171.45.81:81/udp/239.54.6.162:1224?denms.ru
+#EXTINF:-1 tvg-shift=3 tvg-name="Кинокомедия" group-title="Кино и сериалы",Кинокомедия
+http://109.171.45.81:81/udp/239.54.6.132:1234?denms.ru
+#EXTINF:-1 tvg-shift=2 tvg-name="Кино_ТВ" group-title="Кино и сериалы",Кино ТВ
+http://109.171.45.81:81/udp/239.54.6.102:1224?denms.ru
+#EXTINF:-1 tvg-shift=2 tvg-logo="Кино" tvg-name="Кино_ТВ" group-title="Кино и сериалы",Кино ТВ HD
+http://109.171.45.81:81/udp/239.54.6.185:1224?denms.ru
+#EXTINF:-1 tvg-shift=2 tvg-logo="Кино" tvg-name="Кино_ТВ" group-title="Кино и сериалы",Кино ТВ HD
+http://109.171.45.81:81/udp/239.54.7.102:1224?denms.ru
+#EXTINF:-1 tvg-name="Русский_детектив" tvg-shift=3,Русский Детектив
+http://109.171.45.81:81/udp/239.54.6.32:1224?denms.ru
+#EXTINF:-1 tvg-name="Мужское_кино" tvg-shift=3,Мужское Кино
+http://109.171.45.81:81/udp/239.54.7.1:1224?denms.ru
+#EXTINF:-1 tvg-shift=4 tvg-logo="НСТВ" tvg-name="Настоящее_Страшное_Телевидение" group-title="Кино и сериалы",НСТ
+http://109.171.45.81:81/udp/239.54.7.58:1224?denms.ru
+
+#EXTINF:-1 tvg-name="Bridge_TV" tvg-shift=4 group-title="Музыкальные",BRIDGE TV
+http://109.171.45.81:81/udp/239.54.5.9:1224?denms.ru
+#EXTINF:-1 tvg-name="Живая_планета" tvg-shift=4 group-title="Развлекательно-Познавательные",Живая Планета
+http://109.171.45.81:81/udp/239.54.6.34:1224?denms.ru
+#EXTINF:-1 tvg-name="История" tvg-shift=3 group-title="Развлекательно-Познавательные",История
+http://109.171.45.81:81/udp/239.54.6.151:1224?denms.ru
+#EXTINF:-1 tvg-name="Наука_2_0" tvg-shift=3 tvg-logo="Наука 2.0" group-title="Развлекательно-Познавательные",Наука 2.0
+http://109.171.45.81:81/udp/239.54.6.51:1224?denms.ru
+tvg-shift=4 group-title="Развлекательно-Познавательные",Планета HD
+http://109.171.45.81:81/udp/239.54.6.170:1234?denms.ru
+#EXTINF:-1 tvg-name="Телепутешествия" group-title="Развлекательно-Познавательные",Телепутешествия HD
+http://109.171.45.81:81/udp/239.54.7.103:1224?denms.ru
+#EXTINF:-1 tvg-shift=4 tvg-logo="Animal Planet HD" tvg-name="Animal_Planet_HD",Animal Planet HD
+http://109.171.45.81:81/udp/239.54.7.94:1224?denms.ru
+#EXTINF:-1 tvg-name="Discovery_Channel" tvg-shift=4 group-title="Развлекательно-Познавательные",Discovery Channel
+http://109.171.45.81:81/udp/239.54.6.199:1224?denms.ru
+#EXTINF:-1 tvg-name="HD_Life" tvg-shift=4 group-title="Развлекательно-Познавательные",HD Life
+http://109.171.45.81:81/udp/239.54.6.140:1224?denms.ru
+#EXTINF:-1 tvg-name="HD_Life" tvg-shift=4 group-title="Развлекательно-Познавательные",HD Life
+http://109.171.45.81:81/udp/239.54.7.140:1224?denms.ru
+#EXTINF:-1 tvg-name="Nat_Geo_Wild_HD_Russia" group-title="Развлекательно-Познавательные",Nat Geo Wild HD Russia
+http://109.171.45.81:81/udp/239.54.6.126:1234?denms.ru
+#EXTINF:-1 tvg-name="National_Geographiс_HD_Russia" group-title="Развлекательно-Познавательные",National Geographiс HD Russia
+http://109.171.45.81:81/udp/239.54.6.123:1234?denms.ru
+
+
